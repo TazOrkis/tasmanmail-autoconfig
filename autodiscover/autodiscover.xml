@@ -1,1 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+  <Response>
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>imap.forwardemail.net</Server>
+        <Port>993</Port>
+        <SSL>true</SSL>
+        <LoginName>%EMAILADDRESS%</LoginName>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>smtp.forwardemail.net</Server>
+        <Port>465</Port>
+        <SSL>true</SSL>
+        <LoginName>%EMAILADDRESS%</LoginName>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
 
